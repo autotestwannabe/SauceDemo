@@ -2,7 +2,7 @@ import { PlaywrightTestConfig } from '@playwright/test';
 const config: PlaywrightTestConfig = {
   use: {
     headless: false,
-    channel: 'chrome',
+    browserName: 'firefox',
   },
 };
 export default config;
